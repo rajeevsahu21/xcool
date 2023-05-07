@@ -1,0 +1,33 @@
+.App {
+  display: flex;
+  flex-direction: column;
+}
+.card-container {
+  width: 75vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-block: 12px;
+  border-radius: 8px;
+  padding-inline: 10px;
+  font-size: large;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 20px;
+  border: 2px solid rgba(108, 74, 74, 0.311);
+  box-shadow: 1px 1px 3px 0 rgba(0, 0, 0, 0.101),
+    2px 1px 5px 0 rgba(0, 0, 0, 0.111);
+}
+.nav {
+  height: 35px;
+  background-color: rgb(73, 83, 124);
+  margin-bottom: 40px;
+  font-size: 3rem;
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+  color: rgb(73, 76, 84);
+}
+
+.lvl-1 {
+  padding-left: 50px;
+}
